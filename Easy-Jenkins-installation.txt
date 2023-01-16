@@ -33,3 +33,5 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 
 # Step - 4 Open port 8080 from AWS Console
+
+#In your EC2  security settings -> Edit inbound rules -> add port 8080 with Type (custom tcp) and Source (My Ip)
